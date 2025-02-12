@@ -2,8 +2,8 @@ import streamlit as st
 import random
 
 # Configurar o layout e título da página
-st.set_page_config(page_title="Advinhe o Numero", layout="centered")
-st.title("Advinhe o Numero")
+st.set_page_config(page_title="Encontre o Tesouro", layout="centered")
+st.title("Encontre o Tesouro")
 st.sidebar.header("Instruções")
 st.sidebar.write("""
 - Um jogo chamado "Caça ao Tesouro" . O objetivo do jogador é encontrar um tesouro escondido em uma grade 5x5. Cada vez que o jogador escolhe uma posição, o jogo informa se ele está "quente" (próximo) ou "frio" (distante) do tesouro.
